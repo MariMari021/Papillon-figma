@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    margin-top:55px;
+    margin-bottom: 25px;
+}
+.col{
+    position: absolute;
+width: 103px;
+height: 56px;
+left: 111px;
+top: 255px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 29px;
+text-decoration: none;
+color: #000000;
+
+}
+
+
+.mas{
+position: absolute;
+width: 113px;
+height: 48px;
+left: 283px;
+top: 256px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 29px;
+text-decoration: none;
+color: #000000;
+}
+
+
+.sob{
+    position: absolute;
+width: 115px;
+height: 48px;
+left: 1019px;
+top: 254px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 29px;
+text-decoration: none;
+color: #000000;
+}
+
+
+
+.out{
+    position: absolute;
+width: 116px;
+height: 48px;
+left: 1184px;
+top: 254px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 29px;
+text-decoration: none;
+color: #000000;
+}
+
+
+.pre{
+    position: absolute;
+width: 111px;
+height: 48px;
+left: 838px;
+top: 254px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 29px;
+text-decoration: none;
+color: #000000;
+}
+
+
+.fem{
+position: absolute;
+width: 110px;
+height: 48px;
+left: 465px;
+top: 256px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 29px;
+text-decoration: none;
+color: #000000;
+}
+
+.ace{
+    position: absolute;
+width: 122px;
+height: 48px;
+left: 643px;
+top: 255px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 22.5px;
+line-height: 29px;
+text-decoration: none;
+color: #000000;
+}
+
+.log{
+    position: absolute;
+width: 22px;
+height: 24px;
+left: 1306px;
+top: 254px;
+
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   
+}
+
+.cen{
+    align-content: center;
+}
+
+
+/* Rectangle 1 */
+.rec{
+    position: fixed;
+width: 1440px;
+height: 337px;
+left: 0px;
+top: 30px;
+justify-content: center;
+background: radial-gradient(100.69% 44.04% at 50% 46.31%, #16265E 0%, rgba(47, 63, 121, 0) 57.29%);
+opacity: 0.7;
+
+}
+
+
+/* Papillon */
+.pap{
+    position: absolute;
+width: 666px;
+height: 235px;
+left: 387px;
+top: 24px;
+align-content: center;
+
+
+}
+
+
+.menu {
+    top: 10rem;
+}
