@@ -1,182 +1,848 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 
-header{
-    margin-top:55px;
+header {
+    margin-top: 55px;
     margin-bottom: 25px;
 }
-.col{
+
+.menu {
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.5px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.col {
     position: absolute;
-width: 103px;
-height: 56px;
-left: 111px;
-top: 255px;
+    width: 103px;
+    height: 56px;
+    left: 111px;
+    top: 255px;
 
-font-family: 'Baskervville';
-font-style: normal;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 29px;
-text-decoration: none;
-color: #000000;
-
-}
-
-
-.mas{
-position: absolute;
-width: 113px;
-height: 48px;
-left: 283px;
-top: 256px;
-
-font-family: 'Baskervville';
-font-style: normal;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 29px;
-text-decoration: none;
-color: #000000;
-}
-
-
-.sob{
-    position: absolute;
-width: 115px;
-height: 48px;
-left: 1019px;
-top: 254px;
-
-font-family: 'Baskervville';
-font-style: normal;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 29px;
-text-decoration: none;
-color: #000000;
-}
-
-
-
-.out{
-    position: absolute;
-width: 116px;
-height: 48px;
-left: 1184px;
-top: 254px;
-
-font-family: 'Baskervville';
-font-style: normal;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 29px;
-text-decoration: none;
-color: #000000;
-}
-
-
-.pre{
-    position: absolute;
-width: 111px;
-height: 48px;
-left: 838px;
-top: 254px;
-
-font-family: 'Baskervville';
-font-style: normal;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 29px;
-text-decoration: none;
-color: #000000;
-}
-
-
-.fem{
-position: absolute;
-width: 110px;
-height: 48px;
-left: 465px;
-top: 256px;
-
-font-family: 'Baskervville';
-font-style: normal;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 29px;
-text-decoration: none;
-color: #000000;
-}
-
-.ace{
-    position: absolute;
-width: 122px;
-height: 48px;
-left: 643px;
-top: 255px;
-
-font-family: 'Baskervville';
-font-style: normal;
-font-weight: 400;
-font-size: 22.5px;
-line-height: 29px;
-text-decoration: none;
-color: #000000;
-}
-
-.log{
-    position: absolute;
-width: 22px;
-height: 24px;
-left: 1306px;
-top: 254px;
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.5px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #000000;
 
 }
 
-nav{
+
+nav {
     display: flex;
     text-align: center;
-    justify-content: space-between;
-   
+    justify-content: space-evenly;
+    margin-top: -40px;
+
 }
 
-.cen{
+.cen {
     align-content: center;
 }
 
 
 /* Rectangle 1 */
-.rec{
-    position: fixed;
-width: 1440px;
-height: 337px;
-left: 0px;
-top: 30px;
-justify-content: center;
-background: radial-gradient(100.69% 44.04% at 50% 46.31%, #16265E 0%, rgba(47, 63, 121, 0) 57.29%);
-opacity: 0.7;
+.rec {
+    width: 10%;
+
+    left: 0px;
+    top: 30px;
+    justify-content: center;
+
+    padding-left: 3%;
 
 }
 
-
-/* Papillon */
-.pap{
+.pap {
     position: absolute;
-width: 666px;
-height: 235px;
-left: 387px;
-top: 24px;
-align-content: center;
+    width: 666px;
+    height: 235px;
+    left: 387px;
+    top: 114px;
+    align-content: center;
 
 
 }
 
 
 .menu {
-    top: 10rem;
+    top: 200px;
+}
+
+.bn {
+    width: 100%;
+}
+
+.t1 {
+    width: 986px;
+    height: 196px;
+    left: 228px;
+    top: 2081px;
+
+    font-family: 'Baskervville';
+    /* font-style: ; */
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: right;
+    letter-spacing: 0.54em;
+    text-transform: capitalize;
+    margin-left: 15%;
+    color: #000000;
+    display: flex;
+
+}
+
+.tan {
+    width: 949.11px;
+    height: 1176.58px;
+    margin-top: -60px;
+    display: flex;
+    position: absolute;
+
+    top: 1282px;
+}
+
+.ver {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.tm {
+    
+position: absolute;
+width: 922.3px;
+height: 1287.39px;
+left: 597px;
+top: 2000px;
+}
+
+.pn{
+    position: absolute;
+    width: 461.69px;
+    height: 454px;
+    left: 920px;
+    top: 1541px;
+}
+
+.vc{
+    display: flex;
+    flex-direction: column;
+}
+
+.la{
+    position: absolute;
+width: 689px;
+height: 196px;
+left: 76px;
+top: 2414px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 52px;
+letter-spacing: 0.54em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+.ret{
+    position: absolute;
+width: 639px;
+height: 130px;
+left: 69px;
+top: 2610px;
+
+background: #374FA6;
+border-radius: 10px;
+}
+
+.fem{
+   position: absolute;
+    width: 381px;
+    height: 48px;
+    left: 112px;
+    top: 28px;
+    
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    letter-spacing: 0.54em;
+    font-variant: all-small-caps;
+    
+    color: #ffffff;
+}
+
+.reto{
+    position: absolute;
+width: 639px;
+height: 130px;
+left: 69px;
+top: 2799px;
+
+background: #374FA6;
+border-radius: 10px;
+}
+
+.mas{
+    position: absolute;
+    width: 381px;
+    height: 48px;
+    left: 82px;
+    top: 28px;
+    
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    letter-spacing: 0.54em;
+    font-variant: all-small-caps;
+    
+    color: #ffffff;
+}
+
+.pi{
+    position: absolute;
+width: 681px;
+height: 54px;
+left: 115px;
+top: 3259px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+letter-spacing: 0.54em;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+.gle{
+    position: absolute;
+width: 320.49px;
+height: 318.68px;
+left: 75px;
+top: 2987px;
+}
+
+.rer{
+    position: absolute;
+    width: 303.79px;
+    height: 20.79px;
+    left: 83.09px;
+    top: 3313.89px;
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.7223px;
+    line-height: 34px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+
+}
+
+.pre{
+
+    position: absolute;
+    width: 107.42px;
+    height: 20.79px;
+    left: 83.09px;
+    top: 3349.7px;
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.102px;
+    line-height: 28px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+}
+
+.qua{
+    position: absolute;
+width: 319.96px;
+height: 63.53px;
+left: 73px;
+top: 3397.06px;
+
+background: #374FA6;
+border-radius: 17.3265px;
+}
+
+.ob{
+    position: absolute;
+width: 132.84px;
+height: 40.43px;
+left: 99.72px;
+top: 7.61px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 36.9631px;
+line-height: 48px;
+letter-spacing: 0.21em;
+font-variant: all-small-caps;
+
+color: #ffffff;
+
+}
+
+#bai{
+position: absolute;
+    top: 385px;
+}
+
+
+#bri{
+    position: absolute;
+    top: 385px;
+}
+
+.goo{
+    position: absolute;
+    width: 320.49px;
+    height: 318.68px;
+    left: 546.28px;
+    top: 2987px;
+}
+
+.mei{
+    position: absolute;
+    width: 303.79px;
+    height: 20.79px;
+    left: 554.37px;
+    top: 3313.89px;
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.7223px;
+    line-height: 34px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+}
+
+.cor{
+    position: absolute;
+    width: 107.42px;
+    height: 20.79px;
+    left: 554.37px;
+    top: 3349.7px;
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.102px;
+    line-height: 28px;
+    text-transform: capitalize;
+    
+    color: #000000;
+}
+.pure{
+    position: absolute;
+    width: 319.96px;
+    height: 63.53px;
+    left: 545.28px;
+    top: 3397.06px;
+    
+    background: #374FA6;
+    border-radius: 17.3265px;
+}
+
+.to{
+    position: absolute;
+    width: 132.84px;
+    height: 40.43px;
+    left: 99px;
+    top: 8.61px;
+    
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36.9631px;
+    line-height: 48px;
+    letter-spacing: 0.21em;
+font-variant: all-small-caps;
+
+color: #ffffff;
+
+
+}
+
+
+#ka{
+    position: absolute;
+    top: 385px;
+
+}
+
+.uol{
+    position: absolute;
+    width: 320.49px;
+    height: 318.68px;
+    left: 1039.51px;
+    top: 2987px;
+    
+}
+
+.qi{
+    position: absolute;
+    width: 303.79px;
+    height: 20.79px;
+    left: 1047.59px;
+    top: 3313.89px;
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.7223px;
+    line-height: 34px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+
+}
+
+.xin{
+    position: absolute;
+    width: 107.42px;
+    height: 20.79px;
+    left: 1047.59px;
+    top: 3349.7px;
+    
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.102px;
+    line-height: 28px;
+    text-transform: capitalize;
+    
+    color: #000000;
+    
+}
+
+
+.cao{
+
+    position: absolute;
+    width: 319.96px;
+    height: 63.53px;
+    left: 1039.51px;
+    top: 3397.06px;
+    
+    background: #374FA6;
+    border-radius: 17.3265px;
+}
+
+.hui{
+    position: absolute;
+    width: 132.84px;
+    height: 40.43px;
+    left: 101.22px;
+    top: 8.61px;
+    
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36.9631px;
+    line-height: 48px;
+    letter-spacing: 0.21em;
+font-variant: all-small-caps;
+
+color: #ffffff;
+
+}
+
+.tra{
+   
+  padding-left: 3%;
+}
+
+.ps{
+    position: absolute;
+    height: 4px ;
+    width: 100%;
+    background-color: #000000;
+top: 3960px;
+
+}
+
+.nos{
+    position: absolute;
+width: 438px;
+height: 52px;
+left: 195px;
+top: 4030px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+letter-spacing: 0.54em;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.vu{
+    position: absolute;
+    width: 785px;
+    height: 660px;
+    left: 100px;
+    top: 382px;
+    
+    
+}
+
+.in{
+    position: absolute;
+    width: 640px;
+    height: 266px;
+    left: 134px;
+    top: 3760px;
+    
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 142.8%;
+    /* or 37px */
+    
+    text-align: justify;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+.med{
+    position: absolute;
+    width: 585px;
+    height: 460px;
+    left: 706px;
+    top: 3652px;
+    
+}
+
+.loc{
+    position: absolute;
+width: 662px;
+height: 143px;
+left: 721px;
+top: 4493px;
+
+font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+letter-spacing: 0.54em;
+text-transform: capitalize;
+
+color: #000000;
+}
+
+.blue{
+    position: absolute;
+width: 613px;
+height: 410px;
+left: 308px;
+top: 4301px;
+
+background: #374FA6;
+}
+
+.map{
+    position: absolute;
+width: 613px;
+height: 423px;
+left: 355px;
+top: 4256px;
+}
+
+.des{
+    position: absolute;
+    top: 400px;
+    left: 98px;
+}
+
+.t{
+    position: absolute;
+width: 409px;
+height: 30px;
+left: 489px;
+top: 4722px;
+
+font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+
+.se{
+    position: absolute;
+width: 6%;
+left: 1390px;
+top: 5255px;
+}
+
+.lig{
+    position: absolute;
+width: 1519px;
+height: 72.41px;
+
+background: rgba(192, 198, 221, 0.48);
+border: 0.942892px solid #000000;
+}
+
+.vie{
+    position: absolute;
+width: 709.83px;
+height: 38.48px;
+top: 12px;
+left: 206px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 34.2088px;
+line-height: 43px;
+
+color: #001973;
+}
+
+.ctor{
+    position: relative;
+width:75%;
+
+
+}
+
+.dere{
+    position: absolute;
+width: 171px;
+height: 34px;
+bottom: 5px;
+font-family: 'Cairo';
+font-style: normal;
+font-weight: 400;
+font-size: 20.9232px;
+line-height: 39px;
+left: 80px;
+color: #555252;
+}
+
+.fi{
+    position: absolute;
+width: 330.29px;
+height: 0px;
+
+border: 1.49451px solid #000000;
+}
+
+.dire{ 
+    position: absolute;
+    left: 991px;
+    top: 14px;
+}
+
+.rinho{
+    position: absolute;
+width: 1519px;
+height: 26.15px;
+top: 73.20px;
+background: #374FA6;
+}
+
+
+.cer{
+    position: absolute;
+    top: 5400px;
+}
+
+.ack{
+    position: absolute;
+width: 1519px;
+height: 27.07px;
+top: 95px;
+background: #000000;
+}
+
+.cinz{
+
+    
+position: absolute;
+width: 1519px;
+height: 383.53px;
+left: 0px;
+top: 121px;
+
+background: rgba(53, 79, 174, 0.58);
+}
+
+.s1{
+    position: absolute;
+    width: 279.32px;
+    height: 28.9px;
+    left: 385.97px;
+    top: 57.06px;
+    
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.4112px;
+    line-height: 41px;
+    
+    color: #02124A;
+    
+}
+
+.cado{
+    position: absolute;
+width: 136.88px;
+height: 134.14px;
+left: 338.41px;
+top: 105.7px;
+}
+
+.ama{
+    position: absolute;
+width: 164.26px;
+height: 90.55px;
+left: 477.57px;
+top: 128.51px;
+}
+
+.tical{
+    position: absolute;
+    width: 298.59px;
+    height: 0px;
+    left: 591.94px;
+    top: 185px;
+    
+    border: 2px solid #000000;
+    transform: rotate(90deg);
+
+}
+
+.s2{
+    position: absolute;
+    width: 214px;
+    height: 43px;
+    left: 843px;
+    top: 57px;
+    
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.4194px;
+    line-height: 41px;
+    
+    color: #02124A;
+    
+    
+}
+
+.ap{
+    position: absolute;
+    width: 56.73px;
+    height: 58.35px;
+    left: 843.16px;
+    top:110.04px;
+    
+    
+}
+
+.gram{
+    position: absolute;
+    width: 207px;
+    height: 51px;
+    left: 900px;
+    top: 110px;
+    
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.618px;
+    line-height: 56px;
+    
+    color: #FFFFFF;
+    
+
+}
+
+
+.lho{
+
+    position: absolute;
+    width: 43.34px;
+    height: 43.34px;
+    left: 851px;
+    top: 190px;
+}
+
+.book{
+    position: absolute;
+    width: 207px;
+    height: 44px;
+    left: 900px;
+    top: 185px;
+    
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.618px;
+    line-height: 56px;
+    
+    color: #FFFFFF;
+    
+}
+
+.iss{
+position: absolute;
+left: 26px;
+
+}
+
+
+body{
+    
+margin-top: -65px;
+
 }
